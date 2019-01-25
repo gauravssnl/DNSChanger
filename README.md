@@ -11,10 +11,14 @@ Advantage: No Android VPN technique, no battery loss.
   
 DroidScript(JavaScript) has been used to develop this App.
 
-To verify DNS Change , you can use the command :
+To verify DNS Change , we can use the command :
 ```code
-nslookupnslookup google.com
+nslookup google.com
 ```
+We can also use whatsmydnsserver.com for checking our current DNS .
+
+If you are using OpenDNS server ( 208.67.222.222), we can verify it by using welcome.opendns.com and we should see successful message.
+
 
 ## 1. App Home
 
@@ -22,7 +26,7 @@ nslookupnslookup google.com
 
 
 
-## 2. DNS setup successfully 
+## 2. DNS setup successful
 
 ![ScreenShot]( https://github.com/gauravssnl/DNSChanger/blob/master/Screenshots/Screenshot_20190124-015419.png )
 
