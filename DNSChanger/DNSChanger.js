@@ -256,7 +256,7 @@ flushDNS();
 print("Routing DNS request to server : " + server);
 app.SysExec( "su -c iptables -t nat -I OUTPUT -p udp --dport 53 -j DNAT --to-destination " + server );
 app.SysExec( "su -c iptables -t nat -I OUTPUT -p tcp --dport 53 -j DNAT --to-destination " + server );
-
+app.SysExec( "su -c setprop net.dns1 " + server );
 print("Routing DNS request to server completed");
 }
 
@@ -275,7 +275,7 @@ function ValidateIPaddress(ipaddress) {
  alert("Empty DNS address!")  
   return (false)  
  }
- return true;
+ // return true;
   if (/^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(ipaddress)) {  
     return (true)  
   }  
