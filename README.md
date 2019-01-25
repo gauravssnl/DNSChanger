@@ -11,6 +11,11 @@ Advantage: No Android VPN technique, no battery loss.
   
 DroidScript(JavaScript) has been used to develop this App.
 
+To verify DNS Change , you can use the command :
+```code
+nslookupnslookup google.com
+```
+
 ## 1. App Home
 
 ![ScreenShot]( https://github.com/gauravssnl/DNSChanger/blob/master/Screenshots/Screenshot_20190124-015443.png )
