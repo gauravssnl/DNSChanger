@@ -42,3 +42,11 @@ If you are using OpenDNS server ( 208.67.222.222), we can verify it by using wel
 ![ScreenShot]( https://github.com/gauravssnl/DNSChanger/blob/master/Screenshots/Screenshot_20190126-014004.png )
 
 
+## 5. OpenDNS Verification
+
+![ScreenShot]( https://github.com/gauravssnl/DNSChanger/blob/master/Screenshots/Screenshot_20190124-210837.png )
+
+
+
+
+
